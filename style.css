@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Ubuntu', 'sans-serif';
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.bg{
+    background: url("/BlurryImageLoading/images/edit.jpg") no-repeat center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc(100vw + 60px);
+    height: calc(100vh + 60px);
+    z-index: -1;
+    filter: blur(0px)
+}
+
+.loading-text{
+    font-size: 50px;
+    color: #fff;
+}
