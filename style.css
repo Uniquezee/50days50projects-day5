@@ -13,7 +13,7 @@ body{
 }
 
 .bg{
-    background: url("/BlurryImageLoading/images/edit.jpg") no-repeat center/cover;
+    background: url("images/edit.jpg") no-repeat center/cover;
     position: absolute;
     top: 0;
     left: 0;
